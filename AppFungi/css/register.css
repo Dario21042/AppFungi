@@ -1,0 +1,119 @@
+body {
+  background-image: url("../imagenes/image5.png");
+  background-size: cover;
+}
+
+.register-container {
+  width: 300px;
+  margin: 150px auto;
+  padding: 20px;
+  background-color: rgba(60, 60, 60, 0.4);
+  border-radius: 10px;
+  border: 0.1px solid #ffffff;
+  box-shadow: 0 0 20px rgba(60, 60, 60, 10);
+}
+
+.register-title {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: 'Noto Sans';
+  color: #fff;
+  text-align: left;
+}
+
+.mi-proyecto-1-1 {
+  position: absolute;
+  left: 20px;
+  top: 60px;
+  width: 150px;
+  height: auto;
+}
+
+.register-form input {
+  border-radius: 12px;
+  background-color: rgba(60, 60, 60, 0);
+  border: 0.1px solid #ffffff;
+  width: 95%;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.register-form input[type="submit"] {
+  background: linear-gradient(90.57deg, #2e4cee, #221ebf 53.13%, #040f75);
+  color: #fff;
+  cursor: pointer;
+}
+
+#Ya-tienes-una-cuenta {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Noto Sans';
+  color: #fff;
+  text-align: left;
+}
+
+.or-child {
+  border-top: 2px solid #4d4d4d;
+  box-sizing: border-box;
+  width: 100px;
+  height: 2px;
+}
+
+.or1 {
+  font-weight: 500;
+}
+
+.or {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.devicongoogle {
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.devicongoogle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.other-logins {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  text-align: left;
+  font-size: 16px;
+  color: #4d4d4d;
+  font-family: 'Noto Sans';
+}
+
+/* Estilos para pantallas grandes */
+@media screen and (max-width: 600px) {
+  .register-container {
+    width: 80%;
+    margin: 50px auto;
+  }
+
+  .mi-proyecto-1-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 150px;
+  }
+}
