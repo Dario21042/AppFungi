@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,10 @@
   <script src="../Scripts/script.js"></script>
 
 </head>
+
 <body>
   <header class="header">
-  <img class="logo" alt="" src="../imagenes/logo-fungi.png">
+    <img class="logo" alt="" src="../imagenes/logo-fungi.png">
 
     <div class="container">
 
@@ -28,41 +30,68 @@
               <button>Buscar</button>
             </div>
           </li>
-          <li><a href="inicio.html" onclick="cambiarContenido(event, 'contenido-inicio')" class="nav-button">Inicio</a></li>
-          <li><a href="introduccion.html" onclick="cambiarContenido(event, 'contenido-introduccion')" class="nav-button">Introducción</a></li>
-          <li><a href="indice-taxonomico.html" onclick="cambiarContenido(event, 'contenido-indice')" class="nav-button">Índice Taxonómico</a></li>
-          <li><a href="quienes-somos.html" onclick="cambiarContenido(event, 'contenido-quienes')" class="nav-button">Quiénes Somos</a></li>
-          <li><a href="glosario.html" onclick="cambiarContenido(event, 'contenido-glosario')" class="nav-button">Glosario</a></li>
-          <li><a href="contactenos.html" onclick="cambiarContenido(event, 'contenido-contacto')" class="nav-button">Contáctenos</a></li>
+          <li><a href="inicio.html" onclick="cambiarContenido(event, 'contenido-inicio')" class="nav-button">Inicio</a>
+          </li> 
+          <li><a href="introduccion.html" onclick="cambiarContenido(event, 'contenido-introduccion')"
+              class="nav-button">INTRODUCCION</a></li>
+          <li><a href="indice-taxonomico.html" onclick="cambiarContenido(event, 'contenido-indice')"
+              class="nav-button">Índice Taxonómico</a></li>
+          <li><a href="quienes-somos.html" onclick="cambiarContenido(event, 'contenido-quienes')"
+              class="nav-button">Quiénes Somos</a></li>
+          <li><a href="glosario.html" onclick="cambiarContenido(event, 'contenido-glosario')"
+              class="nav-button">Glosario</a></li>
+          <li><a href="contactenos.html" onclick="cambiarContenido(event, 'contenido-contacto')"
+              class="nav-button">Contáctenos</a></li>
         </ul>
       </nav>
     </div>
 
     <div class="content-container">
       <section id="contenido-inicio">
-        <h2>Bienvenido a FungiWeb</h2>
-
-        <p>Fungí Web es un portal de libre acceso dedicado específicamente a la publicación de la diversidad de hongos del Ecuador. La misión de FungiWeb es dar a conocer la información más completa de macro hongos del país, que se encuentran depositados en el Fungario QCAM.Los datos provistos en el portal incluyen lista actualizada de especies, distribución geográfica, identificación y taxonomía.
-           El reino Fungi juega un papel fundamental en el funcionamiento de la vida en la Tierra, sin embargo, es uno de los grupos de organismos menos conocidos.  FungiWeb busca aportar al conocimiento de los hongos para promover y facilitar su estudio. </p>
-      
+        <h3>Bienvenido al mundo Fungi</h3>
+        <img id="home" src="../imagenes/inicio.png" alt="">
+       
           </section>
 
       <section id="contenido-introduccion" style="display: none;">
         <h2>Introducción</h2>
-        <p>El Ecuador es considerado uno de los países más biodiversos del planeta por el gran número de vertebrados, invertebrados y plantas que alberga. Existen cálculos aproximados del número de especies de cada grupo, sin embargo, los estudios de diversidad muy pocas veces incluyen al reino Fungi. Es poca la atención que se le ha dado a este muy importante y diverso grupo de organismos. Conocer con exactitud el número de especies de hongos es complejo, no obstante, se estima que existen entre 3 a 5 millones de especies de hongos en el mundo, de las cuales se han descrito tan solo unas 120 000 especies.
+        <div class="intro">
+          <img class="intro1" src="../imagenes/fondo2.jpg" alt="intro">
+          <img class="intro2" src="../imagenes/fondo3.jpg" alt="intro2">
+        </div>
+        <div class="textintro">
+          <p>Fungí Explorer tiene como objetivo poner a disposición el compendio de información más completo de hongos
+            macroscópicos del Ecuador.
 
-          Países tropicales, ricos en diversidad biológica como el Ecuador, albergan a la mayoría de las especies no descritas. El conocimiento de hongos en estas zonas es muy escaso y los pocos registros que se tiene no están disponibles para el público en general. Por esta razón, FungiWebEcuador tiene como objetivo poner a disposición el compendio de información más completo de hongos macroscópicos del Ecuador.
-          
-          Los hongos del Ecuador comprenden un grupo de organismos versátiles y diversos en su morfología, fisiología y ecología, estas características les han permitido colonizar todo tipo de hábitats, desde páramos hasta selvas tropicales. Su amplia distribución refleja su importancia ecológica dentro de los ecosistemas. Los hongos son los principales degradadores y recicladores de la materia orgánica, y sin hongos no habría vida en la tierra. Sin su presencia, los restos de los seres vivos que mueren se acumularían y darían lugar a inmensos depósitos de materia orgánica. Además, los hongos han sido utilizados en la industria farmacéutica, alimentaria y agrícola contribuyendo de muchas maneras al bienestar humano, pero aún hay mucho por descubrir.
-          
-          Hasta la fecha, FungiWebEcuador dispone información de más de 7700 especímenes, agrupados en 60 órdenes, 155 familias, 472 géneros y 843 especies. FungiWebEcuador incluye una lista actualizada de especies con su respectiva distribución geográfica, identificación y taxonomía. El portal, además, comparte imágenes de la mayoría de especies de hongos del Ecuador, así como mapas de distribución actual y potencial de acuerdo con escenarios de cambio climático a futuro. Estos mapas se modifican con el crecimiento de las colecciones.
-          
-          Brindar información sobre diversidad, importancia ecológica y cultural es fundamental para el desarrollo de propuestas de manejo sustentable y así mantener la estabilidad de los ecosistemas de los cuales obtenemos los servicios esenciales para nuestro desarrollo humano..</p>
+            Los hongos del Ecuador comprenden un grupo de organismos versátiles y diversos en su morfología, fisiología
+            y ecología, estas características les han permitido colonizar todo tipo de hábitats, desde páramos hasta
+            selvas tropicales. Su amplia distribución refleja su importancia ecológica dentro de los ecosistemas. Los
+            hongos son los principales degradadores y recicladores de la materia orgánica, y sin hongos no habría vida
+            en la tierra. Sin su presencia, los restos de los seres vivos que mueren se acumularían y darían lugar a
+            inmensos depósitos de materia orgánica. Además, los hongos han sido utilizados en la industria farmacéutica,
+            alimentaria y agrícola contribuyendo de muchas maneras al bienestar humano, pero aún hay mucho por
+            descubrir.
+
+            Hasta la fecha, FungiWebEcuador dispone información de más de 7700 especímenes, agrupados en 60 órdenes, 155
+            familias, 472 géneros y 843 especies. FungiWebEcuador incluye una lista actualizada de especies con su
+            respectiva distribución geográfica, identificación y taxonomía. El portal, además, comparte imágenes de la
+            mayoría de especies de hongos del Ecuador, así como mapas de distribución actual y potencial de acuerdo con
+            escenarios de cambio climático a futuro. Estos mapas se modifican con el crecimiento de las colecciones.
+
+            Brindar información sobre diversidad, importancia ecológica y cultural es fundamental para el desarrollo de
+            propuestas de manejo sustentable y así mantener la estabilidad de los ecosistemas de los cuales obtenemos
+            los servicios esenciales para nuestro desarrollo humano..</p>
+
+        </div>
+
       </section>
 
       <section id="contenido-indice" style="display: none;">
         <h2>Índice Taxonómico</h2>
         <p>Contenido de la sección de Índice Taxonómico.</p>
+
+
+
       </section>
 
       <section id="contenido-quienes" style="display: none;">
@@ -88,12 +117,5 @@
     </div>
   </footer>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
